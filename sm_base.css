@@ -2,7 +2,7 @@
 /* Default font for page */
 @font-face{
     font-family:Mario;
-    src: url(mario.ttf) format('tff'),
+    src: url(mario.ttf) format('truetype'),
        url(mario.woff) format('woff2'),
        url(mario.woff2) format('woff2');    
 }
