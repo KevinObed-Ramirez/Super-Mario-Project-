@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* HTML Styles */
+html{
+    background: url(sm_castle.png) fixed;
+    background-color: black;
+    font-size: 25px;
+}
+
+/* Body Styles */
+body{
+    background: linear-gradient( red 30%, rgb(233, 134, 134));
+    box-shadow:rgb(51, 51, 51) 10px 20px 20px,rgb(51, 51, 51) -10px 20px 20px;
+}
+article p{
+    background-color: white;
+    border-top: solid 3px black;
+    border-bottom: solid 4px black;
+}
+/* Header Styles */
+header img{
+    transform: translateX(40px) rotateY(180deg);
+    border-radius: 75px;
+}
+/* Section Image Styles */
+section#top3 img{
+    border: solid 30px;
+    border-image: url(sm_frame.png) 75;
+}
+section#bottom3 img{
+    border: solid 30px;
+    border-image: url(sm_frame.png) 75;
+}
+/* Footer Styles */
+footer{
+    text-align: center;
+    border-top: solid 3px black;
+}
