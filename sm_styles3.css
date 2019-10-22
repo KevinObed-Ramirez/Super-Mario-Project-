@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+
+html{
+    background: url(sm_castle.png) fixed;
+    background-color: black;
+    font-size: 25px;
+}
+body{
+    background: linear-gradient( red 30%, rgb(233, 134, 134));
+    box-shadow:rgb(51, 51, 51) 10px 20px 20px,rgb(51, 51, 51) -10px 20px 20px;
+}
+header img#Mario{
+    transform: translateX(15px) translateY(15px);
+    border-radius: 75px;
+    width: 100px;
+    height: 100px;
+}
+header section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    box-shadow: rgb(51, 51, 51) 5px 5px 5px;
+}
+section#gif{
+    text-align: center;
+   padding-top: 10px;
+}
+section#des h3 {
+    text-align: center;
+    font-size: 45px;
+}
+section#des {
+    display: block;
+    padding: 15px;
+}
+footer{
+    
+}
