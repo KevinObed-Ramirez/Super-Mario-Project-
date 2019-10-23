@@ -20,7 +20,7 @@ section#Mario_Home{
 
 /* Section Site Styles */
 section#Site{
-    transform: translateX(250px) translateY(-250px);
+    transform: translateX(250px) translateY(-350px);
 }
 /* Image Styles */
 section#Site img{
