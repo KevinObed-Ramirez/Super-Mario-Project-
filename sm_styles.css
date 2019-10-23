@@ -21,6 +21,13 @@ header img{
     transform: translateX(40px) rotateY(180deg);
     border-radius: 75px;
 }
+header img#Trophy{
+    transform: translateX(100px);
+}
+header img#Peach{
+    transform: translateX(100px);
+    background-color: black;
+}
 /* Section Image Styles */
 section#top3 img{
     border: solid 30px;
